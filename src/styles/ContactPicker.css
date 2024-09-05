@@ -1,0 +1,49 @@
+.contact-picker-container {
+  padding: 20px;
+  background-color: #f0f4f8; /* Ensure background is visible */
+  font-family: Arial, sans-serif;
+  min-height: 100vh; /* Ensure container takes full viewport height */
+}
+
+.pick-contacts-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block; /* Ensure the button is displayed */
+}
+
+.pick-contacts-button:hover {
+  background-color: #2980b9;
+}
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.contact-table th,
+.contact-table td {
+  padding: 15px;
+  border: 1px solid #bdc3c7;
+  text-align: left;
+  font-size: 16px;
+}
+
+.contact-table th {
+  background-color: #2980b9;
+  color: white;
+}
+
+.contact-table tr:nth-child(even) {
+  background-color: #ecf0f1;
+}
+
+.contact-table tr:hover {
+  background-color: #d0d3d4;
+}
